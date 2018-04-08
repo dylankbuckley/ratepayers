@@ -1,0 +1,120 @@
+#council {
+    display: none;
+}
+
+.title_bar {
+    width: 100%;
+    height: 40px;
+}
+
+.close {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: black;
+    background-image: url(../images/close.png);
+    cursor: pointer;
+    float: right;
+}
+
+.title {
+    width: calc(100% - 50px);
+    height: 40px;
+    line-height: 40px;
+}
+
+.council_block {
+    width: 100%;
+    height: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.label {
+    height: 20px;
+    width: 160px;
+    text-align: right;
+    line-height: 20px;
+    font-size: 0.8rem;
+    float: left;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.bar_block {
+    height: 20px;
+    width: calc(100% - 180px);
+    float: left;
+}
+
+.council {
+    height: 20px;
+    background-color: #da4111;
+    float: left;
+    padding: 5px;
+}
+
+.group {
+    height: 20px;
+    background-color: #ea9b86;
+    float: left;
+    padding: 5px;
+}
+
+.national {
+    height: 20px;
+    background-color: #fcb040;
+    float: left;
+    padding: 5px;
+}
+
+@media screen and (min-width: 601px) {
+
+    .council, .group, .national {
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .council, .group, .national {
+        color: black;
+    }
+
+}
+
+.rightside {
+    width: 50%;
+    float: right;
+    display: table-row;
+    position: relative;
+}
+
+.taxbox {
+    width: 100%;
+    min-height: 20px;
+    background-color: #fcd3c9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.leftside {
+    position: relative;
+    width: 50%;
+    float: left;
+    display: table-row;
+}
+
+.conti {
+    width: 100%;
+    display: table;
+}
+
+.miniDividier {
+    height: 2px;
+    background-color: #f47952;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

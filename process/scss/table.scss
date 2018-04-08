@@ -1,0 +1,76 @@
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+table .hidden {
+    display: none;
+}
+
+td,th {
+    padding: 4px;
+}
+
+tr {
+    border-bottom:thin solid;
+    border-color: white;
+}
+
+tr:hover {
+    background-color: #fab6a0;
+    cursor: pointer;
+}
+
+.councilTable thead {
+    background-color: #f47952;
+    font-size: .9em;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+
+.councilTable {
+    position: relative;
+    font-size: .8em;
+    background-color: #dfdfdf;
+}
+
+.councilTable a:link {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.councilTable a:visited {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.councilTable a:hover {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.councilTable a:active {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+table th:nth-child(3){
+    text-align: left !important;
+}
+
+table td:nth-child(3){
+    text-align: left !important;
+}
+
+table th:nth-child(2) {
+    width: 20px;
+}
+
+
+table th:nth-child(3) {
+    width: 200px;
+}
+

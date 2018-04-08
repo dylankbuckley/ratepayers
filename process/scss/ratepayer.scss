@@ -1,0 +1,97 @@
+#keyblock {
+    width: 100%;
+    height: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.pop {
+    cursor: pointer;
+}
+
+.key {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+.key1 {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #da4111;
+}
+
+.key2 {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #ea9b86;
+}
+
+.key3 {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #fcb040;
+}
+
+.keyAll {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.keyU {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0707;
+    border-radius: 50%;
+}
+
+.keyM {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #ca1977;
+    border-radius: 50%;
+}
+
+.keyC {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #9c134a;
+    border-radius: 50%;
+}
+
+.keyP {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #f80cf2;
+    border-radius: 50%;
+}
+
+.keyR {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #a741ef;
+    border-radius: 50%;
+}
+
+.keyAll {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+}
